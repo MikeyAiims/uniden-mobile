@@ -1,0 +1,777 @@
+<div id="app">
+
+<!-- ============================================================
+     LANDING AND PLANS
+     ============================================================ -->
+<div class="scr" data-route="home" hidden>
+  <div class="ribbon">Prepaid data and talk &amp; text. No lock&#8209;in contract. Activate in minutes.</div>
+  <header class="nav">
+    <div class="wrap nav-in">
+      <a class="logo" href="#home" aria-label="Uniden Mobile home"><svg viewBox="0 0 1250 410" aria-hidden="true"><use href="#ulogo"/></svg></a>
+      <nav class="nav-links" aria-label="Main">
+        <a href="#plans" data-scroll="plans">Plans</a>
+        <a href="#how" data-scroll="how">How it works</a>
+        <a href="#" data-todo>Shop</a>
+        <a href="#" data-todo>Support</a>
+      </nav>
+      <div class="nav-end">
+        <a class="btn btn-primary btn-sm nav-cta" href="#start" data-fresh>Activate my SIM</a>
+        <a class="acct-btn" href="#account" aria-label="My account"><span class="avatar">AN</span><span class="t">My account</span></a>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- hero -->
+    <section class="hero" aria-labelledby="h-hero">
+      <div class="hero-sky" aria-hidden="true"></div>
+      <div class="wrap">
+        <div class="hero-copy">
+          <h1 class="h-hero" id="h-hero"><span class="l1">Get connected.</span><br><span class="l2">Activate in minutes.</span></h1>
+          <p class="sub">Prepaid plans for your Uniden devices and your phone. <span class="s2">No contract, no bill shock.</span></p>
+          <div class="hero-cta">
+            <a class="btn btn-primary btn-lg" href="#start" data-fresh>Activate my SIM</a>
+            <a class="go" href="#plans" data-mode="all" data-go="plans">See the plans<svg class="ic"><use href="#i-chev-r"/></svg></a>
+          </div>
+          <p class="hero-fine"><svg class="ic" aria-hidden="true"><use href="#i-sim"/></svg>You will need the SIM serial number from your SIM sleeve.</p>
+        </div>
+      </div>
+      <div class="stage" role="img" aria-label="The Uniden Mobile app on a phone, showing four services and the data left on each">
+        <div class="phone" aria-hidden="true">
+          <div class="phone-screen">
+            <div class="phone-island"></div>
+            <div class="ps-bar"><span>9:41</span><span class="ind"><svg class="ic"><use href="#i-signal"/></svg><svg class="ic"><use href="#i-wifi"/></svg><span class="batt"></span></span></div>
+            <div class="ps-notif"><span class="nf-art" data-art="seccam"><span class="nf-badge green"><svg class="ic"><use href="#i-check"/></svg></span></span><div class="nf-txt"><b>Front door camera is online</b><span>Your 25 GB plan is active.</span></div></div>
+            <div class="ps-head"><svg viewBox="0 0 1250 410"><use href="#ulogo"/></svg><span class="avatar">AN</span></div>
+            <div class="ps-title">My services</div>
+            <p class="ps-sum">4 services · <b>1 needs attention</b></p>
+            <div class="ps-list">
+              <div class="ps-svc"><div class="ps-top"><span class="ps-art" data-art="seccam"></span><span class="ps-id"><b>Front door camera</b><span>25 GB, 30 days</span></span></div><p class="ps-left"><b>13.6</b><span>/ 25 GB used</span></p><div class="ps-meter"><i style="width:54%"></i></div></div>
+              <div class="ps-svc"><div class="ps-top"><span class="ps-art" data-art="hotspot"></span><span class="ps-id"><b>Caravan hotspot</b><span>120 GB, 365 days</span></span></div><p class="ps-left"><b>90.0</b><span>/ 120 GB used</span></p><div class="ps-meter amber"><i style="width:75%"></i></div></div>
+              <div class="ps-svc"><div class="ps-top"><span class="ps-art" data-art="phone"></span><span class="ps-id"><b>My phone</b><span>Medium talk and text</span></span></div><p class="ps-left"><b>8.1</b><span>/ 30 GB used</span></p><div class="ps-meter"><i style="width:27%"></i></div></div>
+              <div class="ps-svc off"><div class="ps-top"><span class="ps-art off" data-art="ptz"><span class="ps-badge"><svg class="ic"><use href="#i-offline"/></svg></span></span><span class="ps-id"><b>Back gate camera</b><span>45 GB, 30 days</span></span><span class="ps-state">Out of data</span></div><p class="ps-left red"><b>45</b><span>/ 45 GB used</span></p><div class="ps-meter red"><i style="width:100%"></i></div></div>
+            </div>
+            <div class="ps-tabs">
+              <span class="on"><svg class="ic"><use href="#i-grid"/></svg>Dashboard</span>
+              <span><svg class="ic"><use href="#i-chart"/></svg>Usage</span>
+              <span><svg class="ic"><use href="#i-plus"/></svg>Top up</span>
+              <span><svg class="ic"><use href="#i-plan"/></svg>My plan</span>
+            </div>
+          </div>
+        </div>
+        <div class="notif n1" aria-hidden="true"><span class="nf-art" data-art="seccam"><span class="nf-badge green"><svg class="ic"><use href="#i-check"/></svg></span></span><div class="nf-txt"><b>Front door camera is online</b><span>Your 25 GB plan is active.</span></div></div>
+        <div class="notif n2" aria-hidden="true"><span class="nf-art" data-art="hotspot"><span class="nf-badge amber"><svg class="ic"><use href="#i-bell"/></svg></span></span><div class="nf-txt"><b>75% data alert</b><span>Caravan hotspot<i class="nf-sep"> · </i><em class="nf-when">2 days ago</em></span></div></div>
+        <div class="notif n3" aria-hidden="true"><span class="nf-art" data-art="ptz"><span class="nf-badge red"><svg class="ic"><use href="#i-offline"/></svg></span></span><div class="nf-txt"><b>Back gate camera is out of data</b><span>Top up to get it back online.</span></div></div>
+      </div>
+    </section>
+
+    <!-- how it works -->
+    <section class="section" id="how" aria-labelledby="h-how">
+      <div class="wrap">
+                <div class="how-scroll"><div class="steps how" data-active="1">
+          <div class="sec-head">
+          <h2 class="h-sec" id="h-how">How it works.</h2>
+          <p class="sub">You will need the SIM serial number from your SIM sleeve.</p>
+        </div>
+          <article class="step" data-how="1">
+            <div class="step-copy">
+              <span class="hw-n" aria-hidden="true">1</span>
+              <h3><span class="vh">Step 1 of 3: </span>Tell us where to reach you</h3>
+              <p>Email and mobile, so you can pick up where you left off.</p>
+            </div>
+            <div class="step-stage" aria-hidden="true"><div class="phone"><div class="phone-screen">
+              <div class="phone-island"></div><div class="ps-bar"><span>9:41</span><span class="ind"><svg class="ic"><use href="#i-signal"/></svg><svg class="ic"><use href="#i-wifi"/></svg><span class="batt"></span></span></div>
+              <div class="ps-head"><svg viewBox="0 0 1250 410"><use href="#ulogo"/></svg></div>
+              <div class="hs-title">Let’s get you started</div>
+              <div class="hs-fld"><small>Email address</small><b data-type>alex.nguyen@example.com</b></div>
+              <div class="hs-fld"><small>Mobile number</small><b class="num" data-type>0412 345 678</b></div>
+              <div class="hs-btn">Continue</div>
+            </div></div></div>
+          </article>
+          <article class="step" data-how="2">
+            <div class="step-copy">
+              <span class="hw-n" aria-hidden="true">2</span>
+              <h3><span class="vh">Step 2 of 3: </span>Enter your SIM serial</h3>
+              <p>Printed on the sleeve. Scan it with your phone camera.</p>
+            </div>
+            <div class="step-stage" aria-hidden="true"><div class="phone"><div class="phone-screen">
+              <div class="phone-island"></div><div class="ps-bar"><span>9:41</span><span class="ind"><svg class="ic"><use href="#i-signal"/></svg><svg class="ic"><use href="#i-wifi"/></svg><span class="batt"></span></span></div>
+              <div class="hs-title">Enter your SIM serial number</div>
+              <div class="hs-vf">
+                <div class="hs-sleeve">
+                  <div class="hs-sleeve-top"><svg viewBox="0 0 1250 410"><use href="#ulogo"/></svg><span class="hs-chip"></span></div>
+                  <div class="hs-code"></div>
+                  <div class="hs-serial num">8961 0234 5678 9012 345</div>
+                </div>
+                <span class="hs-frame" data-pend><i></i><i></i><i></i><i></i></span>
+                <span class="hs-scan"></span>
+              </div>
+              <div class="hs-fld split"><span class="lock"><svg class="ic"><use href="#i-lock"/></svg>8961 0234</span><b class="num" data-type>5678 9012 345</b><span class="hs-ok" data-pend><svg class="ic"><use href="#i-check"/></svg></span></div>
+            </div></div></div>
+          </article>
+          <article class="step" data-how="3">
+            <div class="step-copy">
+              <span class="hw-n" aria-hidden="true">3</span>
+              <h3><span class="vh">Step 3 of 3: </span>Pick a plan, pay, verify and go</h3>
+              <p>30 or 365 days. Data, or talk and text. A one minute ID check after you pay.</p>
+            </div>
+            <div class="step-stage" aria-hidden="true"><div class="phone"><div class="phone-screen">
+              <div class="phone-island"></div><div class="ps-bar"><span>9:41</span><span class="ind"><svg class="ic"><use href="#i-signal"/></svg><svg class="ic"><use href="#i-wifi"/></svg><span class="batt"></span></span></div>
+              <div class="hs-list">
+                <div class="hs-row" data-pend><span class="hs-tick"><svg class="ic"><use href="#i-check"/></svg></span>10 GB plan<em>$14.00</em></div>
+                <div class="hs-row" data-pend><span class="hs-tick"><svg class="ic"><use href="#i-check"/></svg></span>Payment received</div>
+                <div class="hs-row" data-pend><span class="hs-tick"><svg class="ic"><use href="#i-check"/></svg></span>Identity check<em>1 min</em></div>
+              </div>
+              <div class="hs-done" data-pend>
+                <span class="hs-big"><svg class="ic"><use href="#i-check"/></svg></span>
+                <b>Front door camera is online</b>
+                <span>Your 10 GB plan is active.</span>
+              </div>
+            </div></div></div>
+          </article>
+        </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- plans -->
+    <section class="section grey" id="plans" aria-labelledby="h-plans">
+      <div class="wrap">
+        <div class="sec-head">
+          <h2 class="h-sec" id="h-plans">Choose your plan.</h2>
+          <p class="sub">Pick your device and we will point you to the right plan, then choose one to get started.</p>
+        </div>
+        <div class="pane cx" id="pane-guide" role="region" aria-labelledby="h-help">
+          <div class="cx-head">
+            <div class="cx-intro">
+              <h3 class="cx-title" id="h-help">Need help choosing?</h3>
+              <p class="cx-sub">Answer two quick questions and we will show you the plan that fits.</p>
+            </div>
+            <div class="cx-out"><span class="cx-q">Know what you need?</span><a class="cx-skip" href="#pane-all" data-mode="guide" data-go="pane-all">See all plans<svg class="ic" aria-hidden="true"><use href="#i-chev-r"/></svg></a></div>
+          </div>
+          <div class="cx-ask">
+            <div class="ch-q" id="step-dev">
+              <h4 class="ch-label" id="h-step-dev">Your device</h4><span id="jv-dev" hidden></span>
+              <div class="ch-track devices" id="devgrid" role="group" aria-labelledby="h-step-dev"><span class="ch-plate" aria-hidden="true"></span>
+                <button class="dev" type="button" data-dev="dashcam" aria-pressed="false"><span class="tick"><svg class="ic"><use href="#i-check"/></svg></span><span class="dev-art"><img src="{{IMG_DASHCAM}}" alt="" width="560" height="328" decoding="async"></span><span class="name">Dash cam</span></button>
+                <button class="dev" type="button" data-dev="seccam" aria-pressed="false"><span class="tick"><svg class="ic"><use href="#i-check"/></svg></span><span class="dev-art"><img src="{{IMG_SECCAM}}" alt="" width="382" height="560" decoding="async"></span><span class="name">Security camera</span></button>
+                <button class="dev" type="button" data-dev="hotspot" aria-pressed="false"><span class="tick"><svg class="ic"><use href="#i-check"/></svg></span><span class="dev-art"><img src="{{IMG_GEN_HOTSPOT}}" alt="" width="820" height="580" decoding="async"></span><span class="name">Wi-Fi hotspot</span></button>
+                <button class="dev" type="button" data-dev="phone" aria-pressed="false"><span class="tick"><svg class="ic"><use href="#i-check"/></svg></span><span class="dev-art"><img src="{{IMG_GEN_PHONE}}" alt="" width="615" height="820" decoding="async"></span><span class="name">Phone or tablet</span></button>
+                <button class="dev wide" type="button" data-dev="other" aria-pressed="false"><span class="tick"><svg class="ic"><use href="#i-check"/></svg></span><span class="dev-art"><img src="{{IMG_GEN_ROUTER}}" alt="" width="820" height="661" decoding="async"></span><span class="name">Not a Uniden device</span></button>
+              </div>
+            </div>
+            <div class="ch-q" id="step-len">
+              <h4 class="ch-label" id="h-step-len">Plan length</h4><span id="jv-len" hidden></span>
+              <div class="ch-track lengths" role="group" aria-labelledby="h-step-len" data-termctl><span class="ch-plate" aria-hidden="true"></span>
+                <button type="button" class="len" data-term="30" aria-pressed="true"><span class="tick"><svg class="ic"><use href="#i-check"/></svg></span><b>30 days</b><span>From $8.00</span></button>
+                <button type="button" class="len reserved" aria-disabled="true" tabindex="-1"><b>180 days</b></button>
+                <button type="button" class="len" data-term="365" aria-pressed="false"><span class="tick"><svg class="ic"><use href="#i-check"/></svg></span><b>365 days</b><span>From $79.00</span></button>
+              </div>
+            </div>
+          </div>
+          <div class="ch-result" id="step-rec">
+            <h4 class="vh" id="h-step-rec">Your recommendation</h4><span id="jv-rec" hidden></span>
+            <div id="reco" aria-live="polite"></div>
+          </div>
+        </div>
+        <div class="pane" id="pane-all" role="region" aria-labelledby="h-all">
+          <div class="all-head">
+            <div class="all-copy"><h3 id="h-all">All plans</h3><p class="all-ctx" id="all-ctx"></p></div>
+            <div class="seg" role="group" aria-label="Plan length" data-termctl>
+              <button type="button" data-term="30" aria-pressed="true">30 days</button>
+              <button type="button" class="reserved" aria-disabled="true" tabindex="-1">180 days</button>
+              <button type="button" data-term="365" aria-pressed="false">365 days</button>
+            </div>
+          </div>
+          <div id="plans-home"></div>
+        </div>
+        <p class="plans-fine">Talk and text plans available from <b>30 November</b>. Each plan has a critical information summary. 365 day plans from $79.00. Prices shown are indicative. International roaming is not available.</p>
+      </div>
+    </section>
+
+    <!-- every plan includes -->
+    <section class="section" aria-labelledby="h-inc">
+      <div class="wrap">
+        <div class="sec-head">
+          <h2 class="h-sec" id="h-inc">Every plan includes.</h2>
+        </div>
+        <div class="feats bento">
+          <article class="step feat wide f-blue">
+            <div class="step-ui" aria-hidden="true"><div class="mini">
+              <div class="tickrow"><span class="ok"><svg class="ic"><use href="#i-check"/></svg></span>Nothing owing<em>Prepaid</em></div>
+              <div class="tickrow">25 GB plan, 30 days<em>$25.00</em></div>
+              <div class="tickrow">15 GB top up<em>$25.00</em></div>
+            </div></div>
+            <h3>No lock-in contract</h3>
+            <p>This is a prepaid service. You only ever pay when you buy data, so there is no bill and nothing can fall overdue.</p>
+          </article>
+          <article class="step feat">
+            <div class="step-ui" aria-hidden="true"><div class="mini">
+              <div class="mrow"><span class="ps-ic"><svg class="ic"><use href="#i-seccam"/></svg></span><div><b>Back gate camera</b><small>45 GB, 30 days</small></div><span class="pill red"><span class="dot red"></span>Offline</span></div>
+              <div class="ps-meter red"><i style="width:100%"></i></div>
+              <div class="btn-mini">Top up data</div>
+            </div></div>
+            <h3>No bill shock</h3>
+            <p>When your data runs out, your device goes offline. We will not keep charging you.</p>
+          </article>
+          <article class="step feat">
+            <div class="step-ui" aria-hidden="true"><div class="mini">
+              <div class="mrow"><span class="icircle amber"><svg class="ic"><use href="#i-bell"/></svg></span><div><b>75% data alert</b><small>Front door camera · text and email</small></div></div>
+              <div class="mticks"><div class="ps-meter"><i style="width:75%"></i></div><div class="mlabels"><span>50%</span><span>75%</span><span>85%</span><span>100%</span></div></div>
+            </div></div>
+            <h3>Alerts before you run out</h3>
+            <p>We will send you a text and an email at 50%, 75%, 85% and 100% of your data.</p>
+          </article>
+          <article class="step feat wide f-night">
+            <div class="step-ui" aria-hidden="true"><div class="mini">
+              <div class="mpacks"><span>5 GB<em>$12.00</em></span><span class="on">15 GB<em>$25.00</em></span><span>30 GB<em>$40.00</em></span></div>
+              <div class="btn-mini">Pay and add data</div>
+            </div></div>
+            <h3>Top up any time</h3>
+            <p>Add data now and it is available straight away. Your plan end date does not change.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- closing -->
+    <section class="section grey closing" aria-labelledby="h-close">
+      <div class="wrap">
+        <div class="sim-fan close-sims" aria-hidden="true"><span class="sim-w"><span class="sim night"><svg class="sim-logo" viewBox="0 0 1250 410" aria-hidden="true"><use href="#ulogo"/></svg><span class="sim-chip"></span><span class="sim-foot"><span class="sim-label">My phone</span><span class="sim-net">4G</span></span></span></span><span class="sim-w"><span class="sim blue"><svg class="sim-logo" viewBox="0 0 1250 410" aria-hidden="true"><use href="#ulogo"/></svg><span class="sim-chip"></span><span class="sim-foot"><span class="sim-label">Front door camera</span><span class="sim-net">4G</span></span></span></span><span class="sim-w"><span class="sim sky"><svg class="sim-logo" viewBox="0 0 1250 410" aria-hidden="true"><use href="#ulogo"/></svg><span class="sim-chip"></span><span class="sim-foot"><span class="sim-label">Caravan hotspot</span><span class="sim-net">4G</span></span></span></span></div>
+        <h2 class="h-sec" id="h-close">Get connected.<br><span class="l2">Activate in minutes.</span></h2>
+        <div class="hero-cta">
+          <a class="btn btn-primary btn-lg" href="#start" data-fresh>Activate my SIM</a>
+          <a class="go" href="#account">My account<svg class="ic"><use href="#i-chev-r"/></svg></a>
+        </div>
+        <p class="hero-fine">You will need the SIM serial number from your SIM sleeve.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap">
+      <div class="ft-card">
+        <div class="ft-brand">
+          <a class="logo" href="#home" aria-label="Uniden Mobile home"><svg viewBox="0 0 1250 410" aria-hidden="true"><use href="#ulogo"/></svg></a>
+          <p>Made for Australia, Japanese engineered.</p>
+        </div>
+        <nav class="ft-links" aria-label="Footer">
+          <ul>
+            <li><a href="#plans" data-scroll="plans"><span class="u">Plans</span></a></li>
+            <li><a href="#" data-todo><span class="u">Critical information summaries</span></a></li>
+            <li><a class="ext" href="https://www.optus.com.au/living-network/coverage" target="_blank" rel="noopener"><span class="u">Coverage</span><svg class="ic" aria-hidden="true"><use href="#i-arrow-ur"/></svg><small>optus.com.au/<wbr>living-network/<wbr>coverage</small></a></li>
+          </ul>
+          <ul>
+            <li><a href="#" data-todo><span class="u">Network status</span></a></li>
+            <li><a href="#help"><span class="u">Support</span></a></li>
+            <li><a href="#" data-todo><span class="u">Financial hardship</span></a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="ft-base">
+        <p>Data plans are data only, no voice or SMS, including 000. Talk and text plans can call 000.</p>
+        <div class="ft-legal">
+          <a href="#" data-todo>Terms</a>
+          <a href="#" data-todo>Privacy</a>
+          <button class="ft-top" type="button" data-top aria-label="Back to top"><svg class="ic" aria-hidden="true"><use href="#i-chev-r"/></svg></button>
+        </div>
+      </div>
+    </div>
+  </footer>
+</div>
+
+<!-- ============================================================
+     ACTIVATION FLOW
+     ============================================================ -->
+<div class="scr" data-route="flow" hidden>
+  <header class="fbar">
+    <div class="wrap fbar-in">
+      <button class="back" type="button" data-back><svg class="ic"><use href="#i-chev-l"/></svg>Back</button>
+      <a class="logo" href="#home" aria-label="Uniden Mobile home"><svg viewBox="0 0 1250 410" aria-hidden="true"><use href="#ulogo"/></svg></a>
+      <span class="stepct" id="stepct" aria-live="polite">Step 1 of 7</span>
+    </div>
+    <div class="fprog" aria-hidden="true"><i id="progbar"></i></div>
+  </header>
+
+  <main class="flow">
+    <div class="wrap">
+
+      <!-- 1 START -->
+      <section data-step="start" aria-labelledby="h-start" hidden>
+        <div class="f-head">
+          <h1 class="h-page" id="h-start">Let’s get you started</h1>
+          <p class="lede">Two details first, so you can come back to this later from any device without starting again.</p>
+        </div>
+        <div class="f-grid">
+          <div class="f-main">
+            <div class="field"><input id="f-email" type="email" autocomplete="email" placeholder="alex.nguyen@example.com" data-bind="email"><label for="f-email">Email address</label><p class="hint">Your receipt and plan details go here.</p></div>
+            <div class="field"><input id="f-mob" type="tel" inputmode="tel" autocomplete="tel" placeholder="04__ ___ ___" data-bind="mobile" class="num"><label for="f-mob">Mobile number</label><p class="hint">For alerts and to pick up where you left off. If you are activating a data SIM, this is your everyday phone, not the SIM.</p></div>
+            <p class="t-xs mut">By continuing you agree to the <a class="lnk-ink" href="#" data-todo>privacy policy</a>. We will only contact you about this activation unless you tell us otherwise.</p>
+            <div class="actionbar"><a class="btn btn-primary btn-block" data-next href="#sim">Continue</a></div>
+          </div>
+          <aside class="f-aside">
+            <div class="aside">
+              <h2>Shopped with Uniden before?</h2>
+              <p class="mt-1">If we recognise your email we will fill in what we already know, so you only need to add what we do not. Your ID and payment details are always entered by you.</p>
+              <div class="sep"></div>
+              <p>Prefer to sign in? <a class="lnk" href="#account">My account</a></p>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <!-- 2 SIM SERIAL -->
+      <section data-step="sim" aria-labelledby="h-sim" hidden>
+        <div class="f-head">
+          <h1 class="h-page" id="h-sim">Enter your SIM serial number</h1>
+          <p class="lede">The long number printed on the sleeve your SIM came in. We have filled in the start for you.</p>
+        </div>
+        <div class="f-grid">
+          <div class="f-main">
+            <p class="label-sm" id="l-iccid">SIM serial number (ICCID)</p>
+            <div class="iccid" id="iccid-split">
+              <span class="fixed" title="Pre-filled from your SIM batch"><svg class="ic"><use href="#i-lock"/></svg>8961 0234</span>
+              <div class="field"><input id="f-iccid" inputmode="numeric" autocomplete="off" placeholder="5678 9012 345" data-bind="iccidRest" class="num"><label for="f-iccid">Remaining digits</label></div>
+            </div>
+            <div class="field" id="iccid-full" hidden><input id="f-iccid-full" inputmode="numeric" autocomplete="off" placeholder="8961 0234 5678 9012 345" data-bind="iccidFull" class="num"><label for="f-iccid-full">Full SIM serial number</label></div>
+            <p class="hint mt-1" id="iccid-hint">The first eight digits are pre-filled from your SIM batch. If the number on your sleeve is different, <button type="button" data-iccid-full>type the whole number instead</button>.</p>
+            <button class="btn btn-secondary btn-block mt-3" type="button" data-todo="On a phone this opens the camera"><svg class="ic ic-s"><use href="#i-scan"/></svg>Scan it with your camera</button>
+            <p class="hint mt-1">On a phone, point the camera at the sleeve and we read the number for you. <span class="tbc">Subject to feasibility</span>.</p>
+            <div class="field mt-4"><input id="f-devname" placeholder="Front door camera" data-bind="devName"><label for="f-devname">Name this device (optional)</label><p class="hint">So you can tell it apart later if you have more than one. You can change it any time.</p></div>
+            <p class="t-s mut">Cannot find it? <a class="lnk" href="#" data-todo>Get help finding your SIM serial</a></p>
+            <div class="actionbar"><a class="btn btn-primary btn-block" data-next href="#plan">Continue</a></div>
+          </div>
+          <aside class="f-aside">
+            <div class="aside">
+              <h2>Where to find it</h2>
+              <div class="sleeve" role="img" aria-label="The back of the SIM sleeve, with the SIM serial printed under the barcode">
+                <div class="sl-face" aria-hidden="true">
+                  <div class="sl-top"><svg viewBox="0 0 1250 410"><use href="#ulogo"/></svg><span class="sl-sim"></span></div>
+                  <span class="sl-lines"><i></i><i></i></span>
+                  <span class="sl-bars"></span>
+                  <span class="sl-tag">SIM serial</span>
+                  <span class="serial num"><span class="hl">8961 0234</span> 5678 9012 345</span>
+                </div>
+              </div>
+              <p class="mt-2 t-xs">The serial is printed where it can be read without opening the pack.</p>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <!-- 3 CHOOSE A PLAN -->
+      <section data-step="plan" aria-labelledby="h-plan" hidden>
+        <div class="note brand" id="plan-note"><svg class="ic"><use href="#i-sim"/></svg><p></p></div>
+        <div class="f-head mt-4">
+          <h1 class="h-page" id="h-plan">Choose your plan</h1>
+        </div>
+        <div class="pick-bar">
+          <div class="picker" id="pick-devs" role="group" aria-label="Your device"></div>
+          <div class="seg" role="group" aria-label="Plan length" data-termctl>
+            <button type="button" data-term="30" aria-pressed="true">30 days</button>
+            <button type="button" class="reserved" aria-disabled="true" tabindex="-1">180 days</button>
+            <button type="button" data-term="365" aria-pressed="false">365 days</button>
+          </div>
+        </div>
+        <div id="plans-pick" class="pick-ground"></div>
+        <div class="note amber mt-4"><svg class="ic"><use href="#i-offline"/></svg><p><b>When your data runs out, your device goes offline.</b> We will not keep charging you. Top up or renew whenever you are ready and it comes straight back on.</p></div>
+        <div class="actionbar">
+          <div class="sum"><span id="pick-sum-l">Your plan</span><b id="pick-today">$14.00 today</b></div>
+          <a class="btn btn-primary btn-block" data-next href="#details" id="pick-continue">Continue with 10 GB</a>
+        </div>
+      </section>
+
+      <!-- 4 DETAILS -->
+      <section data-step="details" aria-labelledby="h-details" hidden>
+        <div class="f-head">
+          <h1 class="h-page" id="h-details">Your details</h1>
+          <p class="lede">We need these to set up your account and to meet our obligations as a service provider.</p>
+        </div>
+        <div class="f-grid">
+          <div class="f-main">
+            <div class="note green mb-note"><svg class="ic"><use href="#i-check"/></svg><p><b>Welcome back, Alex.</b> We have filled in what we already have from your Uniden account. Check it and change anything that is out of date.</p></div>
+            <div class="pair">
+              <div class="field pre"><input id="d-first" autocomplete="given-name" placeholder="First name" value="Alex"><label for="d-first">First name</label></div>
+              <div class="field pre"><input id="d-last" autocomplete="family-name" placeholder="Last name" value="Nguyen"><label for="d-last">Last name</label></div>
+            </div>
+            <div class="field"><input id="d-dob" inputmode="numeric" autocomplete="bday" placeholder="DD / MM / YYYY" class="num"><label for="d-dob">Date of birth</label><p class="hint">Needed for every prepaid mobile service in Australia.</p></div>
+            <div class="field pre"><input id="d-email" type="email" autocomplete="email" placeholder="Email address" value="alex.nguyen@example.com"><label for="d-email">Email address</label></div>
+            <div class="field pre"><input id="d-mob" type="tel" autocomplete="tel" placeholder="Mobile number" value="0412 345 678" class="num"><label for="d-mob">Mobile number for alerts</label><p class="hint">Data SIM customers: your everyday mobile, not the SIM you are activating.</p></div>
+            <div class="field pre"><textarea id="d-addr" rows="2" autocomplete="street-address" placeholder="Service address">12 Example Street, Chipping Norton NSW 2170</textarea><label for="d-addr">Service address</label></div>
+            <p class="pre-tag"><span class="dot green"></span>Green fields come from your Uniden account</p>
+            <div class="actionbar"><a class="btn btn-primary btn-block" data-next href="#review">Continue</a></div>
+          </div>
+          <aside class="f-aside">
+            <div class="aside">
+              <h2>Why we ask</h2>
+              <div class="sep"></div>
+              <p><b class="ink">Date of birth and address.</b> Required for the identity check on every prepaid mobile service, and for the industry customer register.</p>
+              <p><b class="ink">Your everyday mobile.</b> If you are activating a data SIM it cannot receive text messages, so alerts have to reach you somewhere else.</p>
+              <p><b class="ink">Pre-filled details</b> come from your Uniden account. Your ID and payment details are never pre-filled.</p>
+            </div>
+            <div class="aside">
+              <p class="alerts-line"><svg class="ic ic-s"><use href="#i-bell"/></svg><span>We will send you a text and an email at 50%, 75%, 85% and 100% of your data.</span></p>
+              <div class="meter mt-2" aria-hidden="true"><i data-w="0"></i><span class="tk" style="left:50%"></span><span class="tk" style="left:75%"></span><span class="tk" style="left:85%"></span></div>
+              <div class="ticks" aria-hidden="true"><span style="left:50%">50%</span><span style="left:75%">75%</span><span style="left:85%">85%</span><span style="left:100%">100%</span></div>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <!-- 5 YOUR NUMBER (talk and text only) -->
+      <section data-step="number" aria-labelledby="h-number" hidden>
+        <div class="f-head">
+          <h1 class="h-page" id="h-number">Your number</h1>
+          <p class="lede">Keep the number you have, or take a new one. Either way it is yours to keep and to take with you later.</p>
+          <span class="pill brand">Talk and text plans only</span>
+        </div>
+        <div class="f-grid one">
+          <div class="f-main">
+            <div class="opts" role="radiogroup" aria-label="Your number">
+              <button class="opt" type="button" role="radio" data-numopt="port" aria-checked="true">
+                <span class="icircle"><svg class="ic"><use href="#i-sim"/></svg></span>
+                <span><b>Bring my number across</b><span class="s">From any Australian provider. Your old service stays on until the transfer completes, usually within a business day.</span></span>
+                <span class="radio"></span>
+              </button>
+              <div class="opt-more" id="port-more">
+                <div class="pair stack">
+                  <div class="field"><input id="n-num" type="tel" inputmode="tel" placeholder="04__ ___ ___" data-bind="portNum" class="num"><label for="n-num">Number to transfer</label></div>
+                  <div class="field"><select id="n-prov"><option value="">Choose</option><option>Telstra</option><option>Optus</option><option>Vodafone</option><option>Another provider</option></select><label for="n-prov">Current provider</label></div>
+                </div>
+                <label class="check"><input type="checkbox" id="n-auth"><span>I am the account holder for this number and I authorise Uniden Mobile to transfer it. I understand my old plan may have costs for ending early.</span></label>
+              </div>
+              <button class="opt" type="button" role="radio" data-numopt="new" aria-checked="false">
+                <span class="icircle"><svg class="ic"><use href="#i-plus"/></svg></span>
+                <span><b>Give me a new number</b><span class="s">We will show it on the next screen and in your account.</span></span>
+                <span class="radio"></span>
+              </button>
+            </div>
+            <div class="actionbar"><a class="btn btn-primary btn-block" data-next href="#review">Continue</a></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 6 REVIEW AND CONFIRM -->
+      <section data-step="review" aria-labelledby="h-review" hidden>
+        <div class="f-head">
+          <h1 class="h-page" id="h-review">Check and confirm</h1>
+        </div>
+        <div class="f-grid one">
+          <div class="f-main">
+            <div class="list lined" id="review-list"></div>
+            <label class="check mt-3"><input type="checkbox" id="ack"><span id="ack-text"></span></label>
+            <div class="actionbar"><a class="btn btn-primary btn-block" data-next href="#pay" id="to-pay" aria-disabled="true">Continue to payment</a></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 7 PAYMENT -->
+      <section data-step="pay" aria-labelledby="h-pay" hidden>
+        <div class="f-head">
+          <h1 class="h-page" id="h-pay">Payment</h1>
+        </div>
+        <div class="f-grid summary-first">
+          <div class="f-main">
+            <div class="field"><input id="p-card" inputmode="numeric" autocomplete="cc-number" placeholder="1234 5678 9012 3456" class="num"><label for="p-card">Card number</label></div>
+            <div class="pair">
+              <div class="field"><input id="p-exp" inputmode="numeric" autocomplete="cc-exp" placeholder="MM / YY" class="num"><label for="p-exp">Expiry</label></div>
+              <div class="field"><input id="p-cvc" inputmode="numeric" autocomplete="cc-csc" placeholder="123" class="num"><label for="p-cvc">Security code</label></div>
+            </div>
+            <div class="field"><input id="p-name" autocomplete="cc-name" placeholder="Alex Nguyen"><label for="p-name">Name on card</label></div>
+            <div class="renew grey">
+              <div><b id="renew-l">Renew automatically every 30 days</b><p>Optional. Off unless you turn it on, and you can turn it off any time from your account. Without it your plan simply ends until you buy more.</p></div>
+              <button class="switch" type="button" role="switch" aria-checked="false" aria-labelledby="renew-l" data-autorenew></button>
+            </div>
+            <div class="actionbar">
+              <div class="sum"><span>Total today</span><b id="pay-total-bar">$25.00</b></div>
+              <a class="btn btn-primary btn-block" data-next href="#verify" id="pay-btn">Pay $25.00</a>
+              <p class="under">Next: a one minute identity check, then your service is switched on.</p>
+            </div>
+          </div>
+          <aside class="f-aside">
+            <div class="aside">
+              <h2>Order summary</h2>
+              <div class="sep"></div>
+              <div class="sumrow"><span id="sum-plan">25 GB data plan, 30 days</span><b id="sum-price">$25.00</b></div>
+              <div class="sumrow mut"><span class="num">SIM 8961 … 2345</span><span>Included</span></div>
+              <div class="sep"></div>
+              <div class="sumrow total"><b>Total today</b><b id="sum-total">$25.00</b></div>
+              <p class="t-xs mt-1">Includes GST. One off payment.</p>
+              <div class="sep"></div>
+              <p class="t-xs" id="sum-runs">Your plan runs for 30 days from activation, not from the day you bought the SIM.</p>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <!-- 8 VERIFY IDENTITY -->
+      <section data-step="verify" aria-labelledby="h-verify" hidden>
+        <div class="note green"><svg class="ic"><use href="#i-check"/></svg><p><b>Payment received.</b> One last check and we switch you on. Nothing is activated until this passes, and if it cannot be completed your payment is refunded in full.</p></div>
+        <div class="f-head mt-4">
+          <h1 class="h-page" id="h-verify">Verify your identity</h1>
+          <p class="lede">A quick check required of every Australian prepaid mobile service before it can be activated. It usually takes under a minute.</p>
+        </div>
+        <div class="f-grid one">
+          <div class="f-main">
+            <div class="opts" role="radiogroup" aria-label="Identity document">
+              <button class="opt" type="button" role="radio" data-idopt="licence" aria-checked="true">
+                <span class="icircle"><svg class="ic"><use href="#i-licence"/></svg></span>
+                <span><b>Australian driver licence</b><span class="s">Fastest option</span></span>
+                <span class="radio"></span>
+              </button>
+              <button class="opt" type="button" role="radio" data-idopt="passport" aria-checked="false">
+                <span class="icircle"><svg class="ic"><use href="#i-passport"/></svg></span>
+                <span><b>Australian passport</b><span class="s">Checked against government records</span></span>
+                <span class="radio"></span>
+              </button>
+              <button class="opt" type="button" role="radio" data-idopt="medicare" aria-checked="false">
+                <span class="icircle"><svg class="ic"><use href="#i-medicare"/></svg></span>
+                <span><b>Medicare card</b><span class="s">Used with one other document</span></span>
+                <span class="radio"></span>
+              </button>
+            </div>
+            <div class="renew grey stack-m">
+              <div><b>On your phone? Photograph your document</b><p>Point the camera at your licence and we read the details. <span class="tbc">To be confirmed with the verification provider</span>.</p></div>
+              <button class="btn btn-secondary btn-sm" type="button" data-todo="On a phone this opens the camera"><svg class="ic ic-s"><use href="#i-camera"/></svg>Use camera</button>
+            </div>
+            <div class="note mt-2"><svg class="ic"><use href="#i-shield"/></svg><p>Your documents are checked against government records and are not stored by Uniden. If the check cannot be completed online, we will offer you another way through.</p></div>
+            <div class="actionbar">
+              <a class="btn btn-primary btn-block" data-next href="#done" id="verify-btn">Verify with driver licence and activate</a>
+              <p class="under">Need help? <a class="lnk" href="#help">Our assistant can walk you through it.</a></p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 9 ACTIVATED -->
+      <section data-step="done" aria-labelledby="h-done" hidden>
+        <div class="done">
+          <div class="done-mark" aria-hidden="true"><svg viewBox="0 0 52 52"><path d="M14 27l8 8 16-17"/></svg></div>
+          <h1 class="h-page" id="h-done">Front door camera is online</h1>
+          <p class="lede" id="done-lede">Your 25 GB plan is active. Your device should connect within a couple of minutes. We have emailed your receipt and critical information summary.</p>
+          <div class="done-dev">
+            <span class="icircle brand" id="done-ic"><svg class="ic"><use href="#i-seccam"/></svg></span>
+            <div><b id="done-name">Front door camera</b><span class="s" id="done-plan">25 GB, 30 days</span></div>
+            <span class="pill green"><span class="dot green"></span>Online</span>
+          </div>
+          <div class="facts" id="done-facts"></div>
+          <div class="done-act">
+            <a class="btn btn-primary" href="#account">Go to my account</a>
+            <a class="btn btn-quiet" href="#start" data-fresh>Activate another SIM</a>
+          </div>
+          <div class="note"><svg class="ic"><use href="#i-bell"/></svg><p><b>What happens next.</b> We will text and email you at 50%, 75%, 85% and 100% of your data, and again before your plan ends. Nothing is charged automatically unless you turn auto renew on.</p></div>
+        </div>
+      </section>
+
+    </div>
+  </main>
+  <footer class="ffoot"><div class="wrap" id="flowfoot">Uniden Mobile. Data plans are data only, no voice or SMS, including 000. Talk and text plans can call 000.</div></footer>
+</div>
+
+<!-- ============================================================
+     MY ACCOUNT
+     ============================================================ -->
+<div class="scr acct" data-route="account" hidden>
+  <aside class="side" aria-label="My account">
+    <a class="logo" href="#home" aria-label="Uniden Mobile home"><svg viewBox="0 0 1250 410" aria-hidden="true"><use href="#ulogo"/></svg></a>
+    <p class="g">Overview</p>
+    <a href="#account" data-nav="account"><svg class="ic"><use href="#i-grid"/></svg>Dashboard</a>
+    <a href="#usage" data-nav="usage"><svg class="ic"><use href="#i-chart"/></svg>Usage</a>
+    <p class="g">My service</p>
+    <a href="#myplan" data-nav="myplan"><svg class="ic"><use href="#i-plan"/></svg>My plan</a>
+    <a href="#topup" data-nav="topup"><svg class="ic"><use href="#i-plus"/></svg>Top up</a>
+    <a href="#account" data-scroll="svcs"><svg class="ic"><use href="#i-sim"/></svg>My services</a>
+    <p class="g">Account</p>
+    <a href="#payments" data-nav="payments"><svg class="ic"><use href="#i-receipt"/></svg>Payments and receipts</a>
+    <a href="#payments" data-scroll="methods"><svg class="ic"><use href="#i-card"/></svg>Payment methods</a>
+    <button type="button" data-todo><svg class="ic"><use href="#i-user"/></svg>My details</button>
+    <p class="g">Support</p>
+    <a href="#help" data-nav="help"><svg class="ic"><use href="#i-help"/></svg>Help</a>
+  </aside>
+
+  <div class="acct-main">
+    <header class="topbar">
+      <div class="topbar-in">
+        <a class="logo" href="#home" aria-label="Uniden Mobile home"><svg viewBox="0 0 1250 410" aria-hidden="true"><use href="#ulogo"/></svg></a>
+        <span class="crumb" id="crumb">Dashboard</span>
+        <div class="tools">
+          <button class="theme-sw" type="button" role="switch" aria-checked="false" aria-label="Dark mode" title="Dark mode" data-theme-toggle><span class="ts-thumb" aria-hidden="true"></span><svg class="ic ts-sun" aria-hidden="true"><use href="#i-sun"/></svg><svg class="ic ts-moon" aria-hidden="true"><use href="#i-moon"/></svg></button>
+          <a class="iconbtn" href="#help" aria-label="Help"><svg class="ic"><use href="#i-help"/></svg></a>
+          <span class="avatar" title="Alex Nguyen">AN</span>
+        </div>
+      </div>
+    </header>
+
+    <div class="acct-body">
+
+      <!-- 11 DASHBOARD -->
+      <section data-acct="account" aria-labelledby="h-dash" hidden>
+        <h1 class="page-title" id="h-dash">Dashboard</h1>
+        <p class="sumline" id="dash-stats"></p>
+        <div id="dash-alert"></div>
+        <div class="sec-h" id="svcs"><h2>My services</h2></div>
+        <div class="svcs" id="svc-list"></div>
+        <div class="two">
+          <div>
+            <h2 class="two-h">Recent</h2>
+            <div class="list">
+              <div class="row"><div><p class="v">25 GB plan</p><p class="s">Front door camera</p></div><b class="num">$25.00</b></div>
+              <div class="row"><div><p class="v">100% data alert</p><p class="s">Back gate camera</p></div><span class="t-xs mut">Yesterday</span></div>
+              <div class="row"><div><p class="v">75% data alert</p><p class="s">Front door camera</p></div><span class="t-xs mut">2 days ago</span></div>
+            </div>
+          </div>
+          <div class="assist">
+            <span class="icircle brand"><svg class="ic"><use href="#i-chat"/></svg></span>
+            <h3>Need a hand?</h3>
+            <p>Ask our assistant. It can check your data, buy a top up and sort most things on the spot.</p>
+            <button class="btn btn-primary btn-sm" type="button" data-todo="The assistant opens here"><svg class="ic ic-s"><use href="#i-chat"/></svg>Ask the assistant</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- 12 USAGE -->
+      <section data-acct="usage" aria-labelledby="h-usage" hidden>
+        <h1 class="page-title" id="h-usage">Usage</h1>
+        <div class="picker" data-switch="usageSvc" role="group" aria-label="Service"></div>
+        <div class="ucard" id="usage-card"></div>
+        <div class="u-daily">
+          <h2 class="two-h" id="h-daily">Daily use</h2>
+          <div class="ucard uc-chart" id="usage-chart" role="group" aria-labelledby="h-daily"><p class="pace-key" id="pace-key"></p><div class="chart-box"></div></div>
+          <p class="t-xs mut mt-1">Usage is updated through the day and can lag by up to 15 minutes.</p>
+        </div>
+        <div class="two">
+          <div>
+            <h2 class="two-h">Alerts sent</h2>
+            <div class="list" id="alerts-list"></div>
+            <p class="t-xs mut mt-1">Sent to your alert mobile and email, not to the SIM.</p>
+          </div>
+          <div class="assist">
+            <span class="icircle brand"><svg class="ic"><use href="#i-plus"/></svg></span>
+            <h3>Running low?</h3>
+            <p>Add data now and it is available straight away. Your plan end date does not change.</p>
+            <a class="btn btn-primary btn-sm" href="#topup" data-topup-from="usage">Top up data</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- 13 TOP UP -->
+      <section data-acct="topup" aria-labelledby="h-topup" hidden>
+        <h1 class="page-title" id="h-topup">Top up</h1>
+        <div class="picker" data-switch="topSvc" role="group" aria-label="Service"></div>
+        <div id="topup-alert"></div>
+        <h2 class="topup-h" id="topup-h">Add data to Back gate camera</h2>
+        <p class="topup-sub" id="topup-sub"></p>
+        <div class="packs" role="radiogroup" aria-label="Top up size" id="packs"></div>
+        <div class="tu-grid">
+          <div>
+            <h2 class="two-h">Pay with</h2>
+            <div class="opts" role="radiogroup" aria-label="Card">
+              <button class="opt" type="button" role="radio" aria-checked="true" data-cardopt="saved"><span class="cardmark">VISA</span><span><b>Visa ending 4242</b><span class="s">Saved</span></span><span class="radio"></span></button>
+              <button class="opt" type="button" role="radio" aria-checked="false" data-cardopt="new"><span class="cardmark plain"><svg class="ic ic-s"><use href="#i-card"/></svg></span><span><b>Use a different card</b></span><span class="radio"></span></button>
+            </div>
+          </div>
+          <div class="summary">
+            <h2>Summary</h2>
+            <div class="sep"></div>
+            <div class="sumrow"><span id="tu-line">15 GB top up</span><b id="tu-price">$25.00</b></div>
+            <div class="sep"></div>
+            <div class="sumrow total"><b>Total</b><b id="tu-total">$25.00</b></div>
+            <button class="btn btn-primary btn-block mt-3" type="button" id="tu-pay">Pay and add data</button>
+            <p class="t-xs mut mt-1" id="tu-after">Your device comes back online within a couple of minutes.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- 14 MY PLAN -->
+      <section data-acct="myplan" aria-labelledby="h-myplan" hidden>
+        <h1 class="page-title" id="h-myplan">My plan</h1>
+        <div class="picker" data-switch="planSvc" role="group" aria-label="Service"></div>
+        <div id="myplan-hero"></div>
+        <div id="myplan-renew"></div>
+        <div class="two">
+          <div>
+            <h2 class="two-h">Change your plan</h2>
+            <div class="list" id="change-list"></div>
+            <p class="t-xs mut mt-1">A change takes effect at your next renewal.</p>
+          </div>
+          <div>
+            <h2 class="two-h">Your service</h2>
+            <div class="list" id="svc-details"></div>
+          </div>
+        </div>
+        <div class="note white mt-3"><svg class="ic"><use href="#i-buoy"/></svg><p>Struggling to pay? We have options, including payment plans. <a class="lnk" href="#" data-todo>See how we can help</a>.</p></div>
+      </section>
+
+      <!-- 15 PAYMENTS -->
+      <section data-acct="payments" aria-labelledby="h-pay2" hidden>
+        <h1 class="page-title" id="h-pay2">Payments and receipts</h1>
+        <div class="owing">
+          <span class="icircle green"><svg class="ic"><use href="#i-check"/></svg></span>
+          <h2>Nothing owing</h2>
+          <p>This is a prepaid service. You only ever pay when you buy data, so there is no bill and nothing can fall overdue.</p>
+        </div>
+        <h2 class="two-h gap-top">Receipts</h2>
+        <div class="list rcpt">
+          <div class="row hd"><span>Date</span><span>What for</span><span>Amount</span><span>Receipt</span></div>
+          <div class="row"><span class="d">26 Aug 2026</span><span class="w">25 GB plan, 30 days</span><span class="a">$25.00</span><a class="dl" href="#" data-todo><svg class="ic"><use href="#i-download"/></svg>Download</a></div>
+          <div class="row"><span class="d">14 Aug 2026</span><span class="w">15 GB top up</span><span class="a">$25.00</span><a class="dl" href="#" data-todo><svg class="ic"><use href="#i-download"/></svg>Download</a></div>
+          <div class="row"><span class="d">27 Jul 2026</span><span class="w">25 GB plan, 30 days</span><span class="a">$25.00</span><a class="dl" href="#" data-todo><svg class="ic"><use href="#i-download"/></svg>Download</a></div>
+        </div>
+        <div class="two" id="methods">
+          <div>
+            <h2 class="two-h">Payment methods</h2>
+            <div class="list">
+              <div class="row"><div class="lead"><span class="cardmark">VISA</span><div><p class="v">Visa ending 4242</p><p class="s">Expires 09/28</p></div></div><span class="pill">Default</span></div>
+              <button class="row tap" type="button" data-todo><span class="lead"><span class="icircle"><svg class="ic"><use href="#i-plus"/></svg></span><span class="v">Add a card</span></span><svg class="ic chev"><use href="#i-chev-r"/></svg></button>
+            </div>
+          </div>
+          <div>
+            <h2 class="two-h">Help paying</h2>
+            <div class="note white"><svg class="ic"><use href="#i-buoy"/></svg><p>Struggling to pay? We have options, including payment plans. <a class="lnk" href="#" data-todo>See how we can help</a>.</p></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 16 HELP -->
+      <section data-acct="help" aria-labelledby="h-help" hidden>
+        <h1 class="page-title" id="h-help">Help</h1>
+        <div class="assist big">
+          <div>
+            <h2>Ask the Uniden assistant</h2>
+            <p>It knows your plan, your data and your device. It can check usage, buy a top up, resend a receipt and fix most things without a wait.</p>
+          </div>
+          <button class="btn btn-primary" type="button" data-todo="The assistant opens here"><svg class="ic ic-s"><use href="#i-chat"/></svg>Start a chat</button>
+        </div>
+        <h2 class="two-h gap-top">Common questions</h2>
+        <div class="list">
+          <a class="row tap" href="#usage"><span class="lead"><span class="icircle"><svg class="ic"><use href="#i-offline"/></svg></span><span><span class="ttl">My device will not connect</span><span class="s block">Check your data, your plan dates and coverage.</span></span></span><svg class="ic chev"><use href="#i-chev-r"/></svg></a>
+          <a class="row tap" href="#topup"><span class="lead"><span class="icircle"><svg class="ic"><use href="#i-plus"/></svg></span><span><span class="ttl">I have run out of data</span><span class="s block">Top up and you are back online in minutes.</span></span></span><svg class="ic chev"><use href="#i-chev-r"/></svg></a>
+          <a class="row tap" href="https://www.optus.com.au/living-network/coverage" target="_blank" rel="noopener"><span class="lead"><span class="icircle"><svg class="ic"><use href="#i-pin"/></svg></span><span><span class="ttl">Coverage where I live</span><span class="s block">Check the map before you buy or move a device.</span></span></span><svg class="ic chev"><use href="#i-arrow-ur"/></svg></a>
+          <a class="row tap" href="#start" data-fresh><span class="lead"><span class="icircle"><svg class="ic"><use href="#i-sim"/></svg></span><span><span class="ttl">Activating another SIM</span><span class="s block">Add a second device to the same account.</span></span></span><svg class="ic chev"><use href="#i-chev-r"/></svg></a>
+          <a class="row tap" href="#payments"><span class="lead"><span class="icircle"><svg class="ic"><use href="#i-receipt"/></svg></span><span><span class="ttl">Receipts and payments</span><span class="s block">Download a receipt or change your card.</span></span></span><svg class="ic chev"><use href="#i-chev-r"/></svg></a>
+          <button class="row tap" type="button" data-todo><span class="lead"><span class="icircle"><svg class="ic"><use href="#i-buoy"/></svg></span><span><span class="ttl">Help paying</span><span class="s block">Options if money is tight, including payment plans.</span></span></span><svg class="ic chev"><use href="#i-chev-r"/></svg></button>
+        </div>
+        <div class="renew stack-m">
+          <div><b>Still stuck?</b><p>The assistant will pass you to a specialist if it cannot resolve it.</p></div>
+          <button class="btn btn-quiet btn-sm" type="button" data-todo="Your conversation goes to a specialist with its history"><svg class="ic ic-s"><use href="#i-escalate"/></svg>Escalate to support</button>
+        </div>
+        <div class="notice">
+          <span class="icircle red"><svg class="ic"><use href="#i-nocall"/></svg></span>
+          <div><b>Emergencies.</b><p>Data services on this account are data only and cannot make calls, including to 000. In an emergency use a phone that can make calls.</p></div>
+        </div>
+      </section>
+
+    </div>
+  </div>
+
+  <nav class="tabbar" aria-label="My account">
+    <a href="#account" data-nav="account"><svg class="ic"><use href="#i-grid"/></svg>Dashboard</a>
+    <a href="#usage" data-nav="usage"><svg class="ic"><use href="#i-chart"/></svg>Usage</a>
+    <a href="#topup" data-nav="topup"><svg class="ic"><use href="#i-plus"/></svg>Top up</a>
+    <a href="#myplan" data-nav="myplan"><svg class="ic"><use href="#i-plan"/></svg>My plan</a>
+    <a href="#payments" data-nav="payments"><svg class="ic"><use href="#i-receipt"/></svg>Payments</a>
+  </nav>
+</div>
+
+</div>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
