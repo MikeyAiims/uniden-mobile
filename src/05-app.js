@@ -26,7 +26,7 @@ var DEVICES = {
 };
 var DEV_ORDER = ['dashcam','seccam','hotspot','phone','other'];
 var SVCS = [
-  {id:'backgate', name:'Back gate camera', dev:'seccam', art:'ptz', ref:'SIM ending 7781', started:'4 Jul 2026', plan:'45 GB, 30 days', total:45, used:45, status:'red', label:'Out of data', ends:'3 Sep', endsFull:'3 Sep 2026', price:'$34.00', auto:false, rate:1.5},
+  {id:'backgate', name:'Back gate camera', dev:'seccam', ref:'SIM ending 7781', started:'4 Jul 2026', plan:'45 GB, 30 days', total:45, used:45, status:'red', label:'Out of data', ends:'3 Sep', endsFull:'3 Sep 2026', price:'$34.00', auto:false, rate:1.5},
   {id:'frontdoor', name:'Front door camera', dev:'seccam', ref:'SIM ending 2345', started:'26 Aug 2026', plan:'25 GB, 30 days', total:25, used:13.6, status:'amber', label:'12 days left', ends:'25 Sep', endsFull:'25 Sep 2026', daysLeft:12, elapsed:18, price:'$25.00', auto:false, rate:.76},
   {id:'caravan', name:'Caravan hotspot', dev:'hotspot', ref:'SIM ending 9014', started:'12 Jun 2026', plan:'120 GB, 365 days', extra:'auto renew on', total:120, used:38.2, status:'green', label:'Active', ends:'12 Jun', endsFull:'12 Jun 2027', price:null, auto:true, rate:.41},
   {id:'phone', name:'My phone', dev:'phone', ref:'0412 … 678', started:'1 Dec 2026', plan:'Medium talk and text, 30 days', extra:'unlimited calls and text', total:30, used:8.1, status:'green', label:'Active', ends:'31 Dec', endsFull:'31 Dec 2026', price:'$40.00', auto:false, rate:.45, voice:true}
@@ -133,7 +133,7 @@ function renderPlans(box, mode){
 /* ------------------------------------------------------------
    Landing: device chooser and recommendation
    ------------------------------------------------------------ */
-function devArt(dev){ if (dev==='ptz') return '<img class="art-ptz" src="{{IMG_PTZ}}" alt="" width="301" height="560" decoding="async">'; var el = document.querySelector('#devgrid [data-dev="'+dev+'"] .dev-art'); return el ? el.innerHTML : icon(DEVICES[dev].icon); }
+function devArt(dev){ var el = document.querySelector('#devgrid [data-dev="'+dev+'"] .dev-art'); return el ? el.innerHTML : icon(DEVICES[dev].icon); }
 function recoHTML(dev){
   var d=DEVICES[dev], id=d.rec, p=PLANS[id], pr=priceOf(id), other=dev==='other';
   var feats=['Data only', p.net, 'Usage alerts by text and email', 'No lock-in contract'];

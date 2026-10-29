@@ -51,6 +51,6 @@ npx vercel deploy --prod
 
 ## Images
 
-- Uniden dash cam, security camera and pan-tilt camera: Uniden product photography.
-- Generic hotspot, phone and tablet, router, phone frame and hero sky: generated images, edited for the site.
+- Uniden dash cam, security camera and Looop 4G Wi-Fi hotspot: Uniden product photography.
+- Generic phone and tablet, router, phone frame and hero sky: generated images, edited for the site.
 - Hero clouds: rendered procedurally.
